@@ -1,0 +1,23 @@
+import React from 'react'
+
+const Herobanner = () => {
+    return (
+        <div class="bg-[url('../assets/bg.jpg')] bg-cover bg-center mt-5 p-10">
+            <div class="flex justify-between">
+                <div class="mt-35">
+                    <div class="mb-5 text-3xl text-blue-950">IT Business Consulting</div>
+
+                    <b><h1 class="text-7xl text-blue-950">Best IT Soluations<br />Provide Agency</h1>
+                    </b>
+                    <p class="mt-5 text-blue-900">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremda<br />tium totam rem aperiam eaque ipsa quae ab illo inventore veritatis</p>
+                    <button class="bg-blue-600 text-white p-5 rounded-2xl mt-5 hover:bg-blue-900">Our Services</button>
+                </div>
+                <img alt="this is a image "
+                    class="md:mask-none" src="https://html.webtend.net/omnivus/assets/img/banner/banner-img.png" />
+            </div>
+        </div>
+
+    )
+}
+
+export default Herobanner
