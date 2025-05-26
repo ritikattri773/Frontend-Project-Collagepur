@@ -3,7 +3,7 @@ import React from 'react'
 
 const header = () => {
   return (
-  <div class="flex justify-between items-center mt-3.5 ml-3.5 mb-3.5 mr-5 p-5">
+  <div class="flex justify-between items-center  ml-3.5 mb-3.5 mr-5 p-5">
     <img src="assets/logo.webp" alt='logo' />
 
     <ul class="flex items-center gap-8 justify-center text-l ml-10 ">
