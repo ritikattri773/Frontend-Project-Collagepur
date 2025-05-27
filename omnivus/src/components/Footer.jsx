@@ -5,7 +5,7 @@ const Footer = () => {
         <div class="bg-blue-950 text-white">
             <div class="flex  ">
                 <div class="p-5">
-                    <img src="https://html.webtend.net/omnivus/assets/img/logo-1.1.png" alt="This is Logo" class=" m-10" />
+                    <img src="../assets/logo-footer.webp" alt="This is Logo" class=" m-10" />
                     <p class=" m-10 font-karla">The web has changed a lot since Vitaly posted his first article back in 2006. The team at Smashing has changed too, as have the things that we bringto our community onferences, books, and our membership added to the online magazine.</p>
                     <p class="m-10 font-karla">One thing that hasn’t changed is that we’re a small team — with most of us not working</p>
                 </div>

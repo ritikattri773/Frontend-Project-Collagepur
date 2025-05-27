@@ -1,15 +1,16 @@
 
 import React from 'react'
-
+import { Navigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 const header = () => {
   return (
   <div class="flex justify-between items-center  ml-3.5 mb-3.5 mr-5 p-5">
     <img src="assets/logo.webp" alt='logo' />
 
     <ul class="flex items-center gap-8 justify-center text-l ml-10 ">
-      <li class="hover:text-blue-600 cursor-pointer">Home</li>
+      <Link to ="/"><li class="hover:text-blue-600 cursor-pointer">Home</li></Link>
       <li class="hover:text-blue-600 cursor-pointer">About</li>
-      <li class="hover:text-blue-600 cursor-pointer">Services</li>
+      <Link to="/service"><li class="hover:text-blue-600 cursor-pointer">Services</li></Link>
       <li class="hover:text-blue-600 cursor-pointer">Pages</li>
       <li class="hover:text-blue-600 cursor-pointer">Blogs</li>
       <li class="hover:text-blue-600 cursor-pointer">Contact</li>

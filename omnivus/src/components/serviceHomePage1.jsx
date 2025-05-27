@@ -7,7 +7,7 @@ const servicePage1 = () => {
     return (
         <div class='bg-gray-50 p-10 mb-0'>
             <div className=' flex justify-center items-center text-xl mt-20 mb-0 text-blue-800 font-karla tracking-widest font-bold'>SERVICES</div>
-            <div className='flex justify-center items-center text-7xl mt-0 text-blue-950 font-GilroyBold font-bold '>What We Do</div>
+            <div className='flex justify-center items-center text-6xl mt-0 text-blue-950 font-GilroyBold font-bold '>What We Do</div>
 
             <div class="grid grid-cols-4 gap-3  m-10">
 

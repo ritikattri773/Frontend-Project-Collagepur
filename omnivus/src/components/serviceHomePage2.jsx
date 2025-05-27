@@ -4,7 +4,7 @@ const serviceHomePage2 = () => {
   return (
         <div class='bg-gray-50 '>
             <div className=' flex justify-center items-center text-xl mt-20 mb-0 text-blue-800 font-karla tracking-widest font-bold'>OUR LATEST SERVICES</div>
-            <div className='flex justify-center items-center text-7xl mt-0 text-blue-950 font-GilroyBold font-bold text-center'>We Offer Better Soluation <br/> For Your IT Business</div>
+            <div className='flex justify-center items-center text-6xl mt-0 text-blue-950 font-GilroyBold font-bold text-center'>We Offer Better Soluation <br/> For Your IT Business</div>
 
             <div class="grid grid-cols-3 gap-3  m-20 grid-rows-2">
 
