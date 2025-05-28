@@ -2,7 +2,8 @@ import React from 'react'
 
 const Herobanner = () => {
     return (
-        <div class="bg-[url('../assets/bg.jpg')] bg-cover bg-center pt-40 pb-2 p-10">
+        // <div class="bg-[url('../assets/bg.jpg')] bg-cover bg-center pt-40 pb-2 p-10">
+        <div class="bg-blue-100 bg-cover bg-center pt-30 pb-2 p-10">
             <div class="flex justify-between">
                 <div class="mt-35">
                     <div class="mb-5 text-3xl text-blue-950 tracking-widest font-bold">IT Business Consulting</div>

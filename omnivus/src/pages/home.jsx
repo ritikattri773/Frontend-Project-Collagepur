@@ -6,6 +6,7 @@ import ServiceHomePage2 from "../components/serviceHomePage2"
 import TeamMembers from '../components/TeamMembers'
 import Footer from '../components/Footer'
 import News from '../components/News'
+import CaseStudies from '../components/CaseStudies'
 const home = () => {
   return (
     <div class="bg-gray-50">
@@ -13,6 +14,7 @@ const home = () => {
       <Herobanner/>
       <ServiceHomePage1/>
       <ServiceHomePage2/>
+      <CaseStudies/>
       <TeamMembers/>
       <News/>
       <Footer/>
